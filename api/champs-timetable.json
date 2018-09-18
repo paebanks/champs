@@ -1,0 +1,55 @@
+{
+	"timetable": [
+
+
+		{
+			"date": "09/09/2018",
+			"event_list":
+			[
+				{
+					"event": "100m",
+					"time":	"9 20AM",
+					"sex": "Boys",
+					"class": "3",
+					"round": "Qualifying"
+				},
+				{
+					"event": "200m",
+					"time": "9 25AM",
+					"sex": "Boys",
+					"class": "3",
+					"round": "Qualifying"
+
+				}
+
+			]	
+
+		},
+		{
+			"date": "10/09/2018",
+			"event_list":
+			[
+				{
+					"event": "400m",
+					"time":	"9 20AM",
+					"sex": "Boys",
+					"class": "3",
+					"round": "Qualifying"
+
+				},
+				{
+					"event": "800m",
+					"time": "10 15AM",
+					"sex": "Boys",
+					"class": "3",
+					"round": "Qualifying"
+
+				}
+
+			]	
+
+		}
+
+	]
+	
+} 

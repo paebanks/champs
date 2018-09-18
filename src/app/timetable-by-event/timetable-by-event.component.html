@@ -1,0 +1,42 @@
+{{name}}
+
+<div>
+  <ul class="nav nav-tabs navbar-collapse">
+    
+    <li class="nav-item" *ngFor="let item of schedule; let i = index">
+      	<a [ngClass]="getClass(i)" (click) = "showEventSchedule(i)">
+      		<span>
+      			{{eventDay(i)}}
+      		</span>
+      		<span>
+      			{{item.date}}
+      		</span>
+  		</a>
+    </li>
+  </ul>
+</div>
+
+<div class="timetable">
+	<table class="table table-striped">
+		<thead>
+		    <tr>
+		      <th scope="col">Local Time</th>
+		      <th scope="col">My Time</th>
+		      <th scope="col">Event</th>
+		      <th scope="col">Sex</th>
+		      <th scope="col">Round</th>
+
+		    </tr>
+  		</thead>
+  		<tbody>
+  			<tr *ngFor="let event of scheduleContent.event_list">
+  				<td>{{event.time}}</td>
+  				<td>{{event.time}}</td>
+  				<td>{{event.event}}</td>
+  				<td>{{event.sex}}</td>
+  				<td>{{event.round}}</td>
+  			</tr>
+
+  		</tbody>
+	</table>
+</div>
